@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 11.938 -12.192 0)
+			(at 13.462 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 12.7 0)
+			(at -2.54 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 12.7 0)
+			(at -2.54 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 12.7 0)
+			(at -2.54 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 12.7 0)
+			(at -2.54 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "LT8331IMSE#WPBF_1_1"
 			(rectangle
-				(start -10.16 10.16)
-				(end 10.16 -11.43)
+				(start -12.7 13.97)
+				(end 11.43 -12.7)
 				(stroke
 					(width 0)
 					(type solid)
@@ -62,7 +62,7 @@
 				)
 			)
 			(text "LT8331\n"
-				(at 14.732 -14.478 0)
+				(at 16.256 -16.256 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -70,7 +70,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 5.08 0)
+				(at -15.24 7.62 0)
 				(length 2.54)
 				(name "EN/UVLO"
 					(effects
@@ -88,7 +88,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 0 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "Mode"
 					(effects
@@ -106,7 +106,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "Rt"
 					(effects
@@ -123,8 +123,26 @@
 					)
 				)
 			)
+			(pin input line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at -5.08 12.7 270)
+				(at -7.62 16.51 270)
 				(length 2.54)
 				(name "Vin"
 					(effects
@@ -142,7 +160,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -13.97 90)
+				(at -7.62 -15.24 90)
 				(length 2.54)
 				(name "SS"
 					(effects
@@ -160,9 +178,27 @@
 				)
 			)
 			(pin input line
-				(at 5.08 12.7 270)
+				(at 0 16.51 270)
 				(length 2.54)
-				(name "SW"
+				(name "SW2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 16.51 270)
+				(length 2.54)
+				(name "SW1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -178,7 +214,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -13.97 90)
+				(at 7.62 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -196,7 +232,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 5.08 180)
+				(at 13.97 7.62 180)
 				(length 2.54)
 				(name "INTVcc"
 					(effects
@@ -214,7 +250,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 0 180)
+				(at 13.97 2.54 180)
 				(length 2.54)
 				(name "FBX"
 					(effects
@@ -232,7 +268,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -5.08 180)
+				(at 13.97 -2.54 180)
 				(length 2.54)
 				(name "Bias"
 					(effects
@@ -242,6 +278,24 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -7.62 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)

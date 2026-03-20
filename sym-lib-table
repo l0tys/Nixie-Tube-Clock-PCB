@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LT8331")(type "KiCad")(uri "${KIPRJMOD}/LT8331.kicad_sym")(options "")(descr ""))
   (lib (name "K155ID1")(type "KiCad")(uri "${KIPRJMOD}/K155ID1.kicad_sym")(options "")(descr ""))
+  (lib (name "SMLJ13A-R")(type "KiCad")(uri "${KIPRJMOD}/SMLJ13A-R.kicad_sym")(options "")(descr ""))
 )
