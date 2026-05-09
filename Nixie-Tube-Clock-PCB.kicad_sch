@@ -1803,6 +1803,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2440,6 +2589,316 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LMR33630BDDAR:LMR33630BDDAR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 18.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LMR33630BDDAR"
+				(at -12.7 -21.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LMR33630BDDAR:VREG_LM5017MR_NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "SIMPLE SWITCHER® 3.8V to 36V, 3A Synchronous Buck Converter With Ultra-Low EMI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "HSOIC-8 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMR33630BDDAR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LMR33630BDDAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LMR33630BDDAR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LMR33630BDDAR_0_0"
+				(rectangle
+					(start -12.7 -17.78)
+					(end 12.7 17.78)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3769,147 +4228,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM317_SOT-223"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM317_SOT-223"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Adjustable Voltage Regulator 1A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM317_SOT-223_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM317_SOT-223_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SMLJ13A-R:SMLJ13A-R"
 			(pin_names
 				(offset 1.016)
@@ -4895,7 +5213,7 @@
 	)
 	(rectangle
 		(start 299.72 119.38)
-		(end 403.86 182.88)
+		(end 403.86 193.04)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4906,7 +5224,7 @@
 		(uuid cf4c1ff3-f8dd-4d02-94b9-5374e621b693)
 	)
 	(rectangle
-		(start 299.72 187.96)
+		(start 299.72 198.12)
 		(end 403.86 250.19)
 		(stroke
 			(width 0)
@@ -4929,9 +5247,9 @@
 		)
 		(uuid "12c1d74a-3c2d-495d-ab01-5eb1da749392")
 	)
-	(text "Linear Voltage Regulator"
+	(text "Buck Converter\n"
 		(exclude_from_sim no)
-		(at 317.754 122.936 0)
+		(at 311.658 123.698 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4943,7 +5261,7 @@
 	)
 	(text "RTC Module\n"
 		(exclude_from_sim no)
-		(at 308.61 191.262 0)
+		(at 309.372 202.438 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4996,7 +5314,13 @@
 		(uuid "0117c93c-8467-4bed-9cf9-1af236769ca3")
 	)
 	(junction
-		(at 354.33 203.2)
+		(at 342.9 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05cbf753-06c1-4b01-baad-432bff54be54")
+	)
+	(junction
+		(at 354.33 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "078ab1d3-6808-4a03-bb00-e5b73dceab02")
@@ -5014,6 +5338,12 @@
 		(uuid "19cb061d-6c51-41f3-b658-92b9ff3f18e5")
 	)
 	(junction
+		(at 342.9 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c4eca42-b848-4a9b-b6c8-0ee5970b70b7")
+	)
+	(junction
 		(at 124.46 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5026,10 +5356,10 @@
 		(uuid "29638a72-7ab8-4bb6-8ab9-71351c7f0f77")
 	)
 	(junction
-		(at 351.79 165.1)
+		(at 346.71 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "352de463-4eb1-4549-9250-7a13fa76039a")
+		(uuid "3981d18d-520f-4874-9b62-ef70c17035d3")
 	)
 	(junction
 		(at 160.02 190.5)
@@ -5038,13 +5368,19 @@
 		(uuid "4077dd19-206e-430c-991c-f9ca521bcb66")
 	)
 	(junction
-		(at 379.73 223.52)
+		(at 379.73 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42ed145d-f445-4132-94ea-61d2e600eb6f")
 	)
 	(junction
-		(at 360.68 210.82)
+		(at 331.47 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4550559e-6bb1-49bc-8865-679940f822dc")
+	)
+	(junction
+		(at 360.68 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4654d68a-d15d-4329-b8a1-8e934aaf0e86")
@@ -5054,6 +5390,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b5e8882-0018-4f15-9e85-6d3c40e6fcc8")
+	)
+	(junction
+		(at 387.35 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bc75f57-e9e2-4722-910d-46161d842e91")
 	)
 	(junction
 		(at 172.72 58.42)
@@ -5068,10 +5410,10 @@
 		(uuid "64c39859-6cf2-4304-91ba-4d213692a377")
 	)
 	(junction
-		(at 377.19 138.43)
+		(at 312.42 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "717f3748-85ce-4c94-a55f-8f2e7166d875")
+		(uuid "72c0c81f-1d7e-4841-a67b-0af58f226762")
 	)
 	(junction
 		(at 121.92 213.36)
@@ -5098,10 +5440,10 @@
 		(uuid "7cde7965-6fb8-4c03-8d51-3532a91b715a")
 	)
 	(junction
-		(at 327.66 138.43)
+		(at 312.42 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80808fbe-fbc8-4139-b13e-edb8cb7c5082")
+		(uuid "7ced621e-f5c9-4627-9e11-3e26073417f5")
 	)
 	(junction
 		(at 121.92 190.5)
@@ -5116,16 +5458,28 @@
 		(uuid "88c8a0ae-538e-4230-b64e-a4e06a738927")
 	)
 	(junction
-		(at 332.74 138.43)
+		(at 342.9 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8bde5b95-3e36-47e1-a0c0-bbe28ab67799")
+		(uuid "8eb65048-67f2-47db-9138-8dd5812b634f")
 	)
 	(junction
-		(at 341.63 204.47)
+		(at 341.63 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "925dd248-4a31-41ce-bb41-bc28d277da91")
+	)
+	(junction
+		(at 342.9 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92c762e9-3dff-4c6b-b476-088f22c57fdb")
+	)
+	(junction
+		(at 255.27 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae8f4a96-4495-43c4-9fa8-f85154073069")
 	)
 	(junction
 		(at 171.45 190.5)
@@ -5146,6 +5500,12 @@
 		(uuid "bbf3e1f1-c1de-440b-ba2f-cbe4fa871323")
 	)
 	(junction
+		(at 322.58 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdc7c54d-f822-4e64-a5dd-d0383e692398")
+	)
+	(junction
 		(at 148.59 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5164,22 +5524,28 @@
 		(uuid "d26c9268-f4a0-411b-b9af-bbc40a1257a7")
 	)
 	(junction
-		(at 255.27 238.76)
+		(at 255.27 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e009b173-233c-4310-b0ac-c6424f920ca7")
+		(uuid "d2b5b35a-7234-4a96-a39b-21e64a80e5fc")
 	)
 	(junction
-		(at 341.63 220.98)
+		(at 342.9 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da5fca3a-17b5-4ad6-ab6b-dc1ba9fbb543")
+	)
+	(junction
+		(at 341.63 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0fcc59e-53ca-4e11-a94d-5cb8b7ab064f")
 	)
 	(junction
-		(at 365.76 138.43)
+		(at 353.06 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e3fe396a-098a-483d-86ca-b0522e741d9c")
+		(uuid "ec0a69af-f04c-43a8-ae0f-91d05642271a")
 	)
 	(junction
 		(at 67.31 213.36)
@@ -5188,7 +5554,7 @@
 		(uuid "ef541291-bbdf-4715-bc01-ff186b9b6e9c")
 	)
 	(junction
-		(at 334.01 218.44)
+		(at 334.01 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f682eb0b-1740-4ea2-b953-5695a28a4f37")
@@ -5200,21 +5566,21 @@
 		(uuid "f9977ce9-1221-496b-b36a-94af590b43d4")
 	)
 	(junction
-		(at 351.79 151.13)
+		(at 387.35 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "facbdabc-77e5-4825-8c41-4d796ab08dc2")
+		(uuid "fdc72234-6532-447f-afa7-75bb22970990")
 	)
 	(no_connect
-		(at 374.65 57.15)
+		(at 374.65 60.96)
 		(uuid "0fe2fc54-eaa6-437e-9188-bb70929c6c78")
 	)
 	(no_connect
-		(at 328.93 54.61)
+		(at 328.93 58.42)
 		(uuid "1cdd3393-40b7-466a-94a3-28fd29c064fc")
 	)
 	(no_connect
-		(at 328.93 72.39)
+		(at 328.93 76.2)
 		(uuid "280760bf-3fe3-492d-8bd8-ddd7689568b1")
 	)
 	(no_connect
@@ -5222,39 +5588,35 @@
 		(uuid "396750ef-b041-405b-80f8-94ed0dbeafde")
 	)
 	(no_connect
-		(at 374.65 54.61)
+		(at 374.65 58.42)
 		(uuid "448d9ae3-d41f-4a2a-adaf-365fa0a13249")
 	)
 	(no_connect
-		(at 328.93 52.07)
+		(at 328.93 55.88)
 		(uuid "51cddc5e-7686-4a55-a367-03b256f2aeba")
 	)
 	(no_connect
-		(at 328.93 90.17)
+		(at 328.93 93.98)
 		(uuid "525d75c5-b581-4763-bd89-a41a1d70221c")
 	)
 	(no_connect
-		(at 374.65 69.85)
+		(at 374.65 73.66)
 		(uuid "5eb40ab7-95a5-4f6f-88ae-9c518241f792")
 	)
 	(no_connect
-		(at 374.65 80.01)
+		(at 374.65 83.82)
 		(uuid "67d6578c-2224-4ac6-83a3-e06ab5ba4074")
 	)
 	(no_connect
-		(at 245.11 201.93)
-		(uuid "6946e7cb-17a4-4178-9d68-27cad5ada4b3")
-	)
-	(no_connect
-		(at 328.93 46.99)
+		(at 328.93 50.8)
 		(uuid "7a94cbe7-e459-4f5a-99e4-ad1df68b35a3")
 	)
 	(no_connect
-		(at 328.93 85.09)
+		(at 328.93 88.9)
 		(uuid "87a4b347-a0f2-43e5-bf73-604306c2e958")
 	)
 	(no_connect
-		(at 374.65 64.77)
+		(at 374.65 68.58)
 		(uuid "896b367e-c912-4da0-b30c-7307f9704964")
 	)
 	(no_connect
@@ -5266,35 +5628,35 @@
 		(uuid "8bb55216-40f5-4e72-b301-ccd4b184a595")
 	)
 	(no_connect
-		(at 328.93 57.15)
+		(at 328.93 60.96)
 		(uuid "92b7d8ae-140a-487c-a7cc-9fb91431fadc")
 	)
 	(no_connect
-		(at 374.65 67.31)
+		(at 374.65 71.12)
 		(uuid "97d5e084-0bf4-4f7c-b66d-709b36358708")
 	)
 	(no_connect
-		(at 374.65 90.17)
+		(at 374.65 93.98)
 		(uuid "986b92fd-cf92-4207-b256-4fbe9b4403a3")
 	)
 	(no_connect
-		(at 328.93 69.85)
+		(at 328.93 73.66)
 		(uuid "99a67c6c-e3a7-4176-b798-d1d7eb18045b")
 	)
 	(no_connect
-		(at 374.65 59.69)
+		(at 374.65 63.5)
 		(uuid "9d124e08-2621-4991-949f-795d05e0c94e")
 	)
 	(no_connect
-		(at 328.93 74.93)
+		(at 328.93 78.74)
 		(uuid "a08add1d-f7f9-4b58-b26e-75654b8a426b")
 	)
 	(no_connect
-		(at 356.87 29.21)
+		(at 356.87 33.02)
 		(uuid "a8b644fb-636e-499b-a049-3025b988d4d0")
 	)
 	(no_connect
-		(at 328.93 59.69)
+		(at 328.93 63.5)
 		(uuid "b16df9b9-6c66-4f39-bf3b-d718fae3c90b")
 	)
 	(no_connect
@@ -5302,31 +5664,31 @@
 		(uuid "b6fe2bd6-1314-4109-8b41-89d81cb9e332")
 	)
 	(no_connect
-		(at 351.79 29.21)
+		(at 351.79 33.02)
 		(uuid "b8b69deb-880f-4006-a381-fafd40c162f0")
 	)
 	(no_connect
-		(at 328.93 87.63)
+		(at 328.93 91.44)
 		(uuid "bed4a471-25d5-4888-9ba8-4dc4378da675")
 	)
 	(no_connect
-		(at 374.65 85.09)
+		(at 374.65 88.9)
 		(uuid "c8e0ae8d-c8ec-4246-80ff-e195893aef69")
 	)
 	(no_connect
-		(at 374.65 62.23)
+		(at 374.65 66.04)
 		(uuid "c9f468f7-38d6-4ea1-a4b8-41df2c46c494")
 	)
 	(no_connect
-		(at 374.65 74.93)
+		(at 374.65 78.74)
 		(uuid "d7c74cc0-5ff6-4911-af44-5a663a0e1f0a")
 	)
 	(no_connect
-		(at 374.65 82.55)
+		(at 374.65 86.36)
 		(uuid "e40d30a7-7132-4c5f-ac35-b373ce1496a3")
 	)
 	(no_connect
-		(at 328.93 44.45)
+		(at 328.93 48.26)
 		(uuid "fe4f01d5-4855-4f4d-a5cd-ee37eea95af9")
 	)
 	(wire
@@ -5341,16 +5703,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 138.43) (xy 377.19 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02ee3ef7-4990-4ff7-af16-29258c02e25d")
-	)
-	(wire
-		(pts
 			(xy 93.98 213.36) (xy 99.06 213.36)
 		)
 		(stroke
@@ -5361,7 +5713,17 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 223.52) (xy 384.81 223.52)
+			(xy 322.58 138.43) (xy 322.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0548df9c-7cad-4ec4-be6a-4e2bfe3c9d89")
+	)
+	(wire
+		(pts
+			(xy 379.73 228.6) (xy 384.81 228.6)
 		)
 		(stroke
 			(width 0)
@@ -5431,16 +5793,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 165.1) (xy 332.74 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdfcd54-6161-4060-b6f0-7939d853c88a")
-	)
-	(wire
-		(pts
 			(xy 135.89 217.17) (xy 160.02 217.17)
 		)
 		(stroke
@@ -5501,6 +5853,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 186.69) (xy 342.9 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb9614e-dc5b-44f0-a385-f5d80959c411")
+	)
+	(wire
+		(pts
 			(xy 148.59 190.5) (xy 160.02 190.5)
 		)
 		(stroke
@@ -5518,6 +5880,16 @@
 			(type default)
 		)
 		(uuid "108f88e4-4993-44a0-8b10-a4f73685c38d")
+	)
+	(wire
+		(pts
+			(xy 387.35 133.35) (xy 387.35 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10985504-7b42-4b94-90a7-317b73de5072")
 	)
 	(wire
 		(pts
@@ -5581,6 +5953,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 138.43) (xy 312.42 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a03b5f-677e-4ae2-be46-5022287de057")
+	)
+	(wire
+		(pts
 			(xy 114.3 97.79) (xy 114.3 99.06)
 		)
 		(stroke
@@ -5611,6 +5993,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 161.29) (xy 387.35 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143388c4-e39c-46bc-b719-de847a416142")
+	)
+	(wire
+		(pts
 			(xy 82.55 116.84) (xy 82.55 142.24)
 		)
 		(stroke
@@ -5631,13 +6023,23 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 80.01) (xy 328.93 80.01)
+			(xy 325.12 83.82) (xy 328.93 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1759e34a-4635-4294-836e-8c575e942fb6")
+	)
+	(wire
+		(pts
+			(xy 251.46 248.92) (xy 255.27 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e6d055-8555-4a4c-ba30-1d31ed0f56ae")
 	)
 	(wire
 		(pts
@@ -5648,6 +6050,16 @@
 			(type default)
 		)
 		(uuid "18287673-c731-4c9d-b494-db9a2813f18e")
+	)
+	(wire
+		(pts
+			(xy 346.71 25.4) (xy 346.71 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1828ea47-add7-4bc8-be9c-af9c18c09215")
 	)
 	(wire
 		(pts
@@ -5681,7 +6093,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 233.68) (xy 356.87 237.49)
+			(xy 356.87 238.76) (xy 356.87 242.57)
 		)
 		(stroke
 			(width 0)
@@ -5791,6 +6203,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 133.35) (xy 400.05 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df016c7-a492-40ba-96d6-50a1608c4a43")
+	)
+	(wire
+		(pts
 			(xy 114.3 97.79) (xy 124.46 97.79)
 		)
 		(stroke
@@ -5808,6 +6230,16 @@
 			(type default)
 		)
 		(uuid "1e88b1ed-4491-4768-af0b-b2840ba2122e")
+	)
+	(wire
+		(pts
+			(xy 387.35 133.35) (xy 389.89 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e926a44-f15f-4d9a-a5f1-95fad5a44b85")
 	)
 	(wire
 		(pts
@@ -5831,7 +6263,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 82.55) (xy 328.93 82.55)
+			(xy 325.12 86.36) (xy 328.93 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5911,13 +6343,33 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 77.47) (xy 328.93 77.47)
+			(xy 387.35 146.05) (xy 382.27 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2865de38-65fe-44f2-bc41-0550f419fa08")
+	)
+	(wire
+		(pts
+			(xy 325.12 81.28) (xy 328.93 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a7606c4-8a31-4384-aa53-66031314270d")
+	)
+	(wire
+		(pts
+			(xy 255.27 248.92) (xy 255.27 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa2f01d-c056-4d44-87a2-7ac8531cf2d6")
 	)
 	(wire
 		(pts
@@ -5941,23 +6393,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 238.76) (xy 243.84 238.76)
+			(xy 240.03 231.14) (xy 243.84 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2eb2e41c-e578-4d6e-8317-633a3646f97b")
-	)
-	(wire
-		(pts
-			(xy 351.79 151.13) (xy 351.79 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ecb3261-116f-48b0-80ca-2c410566b53c")
 	)
 	(wire
 		(pts
@@ -5971,13 +6413,33 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 226.06) (xy 344.17 226.06)
+			(xy 336.55 231.14) (xy 344.17 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31bc665f-c99c-44ee-8efc-f8f84f1c9a40")
+	)
+	(wire
+		(pts
+			(xy 353.06 184.15) (xy 353.06 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336c60d9-d936-487d-b15c-186208de0b93")
+	)
+	(wire
+		(pts
+			(xy 341.63 170.18) (xy 342.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d50ab9-7bb3-4342-84e4-e68ee5053de2")
 	)
 	(wire
 		(pts
@@ -6031,7 +6493,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 226.06) (xy 336.55 227.33)
+			(xy 336.55 231.14) (xy 336.55 232.41)
 		)
 		(stroke
 			(width 0)
@@ -6041,13 +6503,23 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 204.47) (xy 341.63 207.01)
+			(xy 341.63 209.55) (xy 341.63 212.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "38c72eaa-f707-4367-a107-5b6d0f374399")
+	)
+	(wire
+		(pts
+			(xy 342.9 143.51) (xy 342.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38da9df4-91d1-4a78-8a35-80f1bca912f8")
 	)
 	(wire
 		(pts
@@ -6081,6 +6553,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 161.29) (xy 387.35 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cec502b-ee3f-45e5-a419-03568e4a267a")
+	)
+	(wire
+		(pts
 			(xy 185.42 116.84) (xy 185.42 142.24)
 		)
 		(stroke
@@ -6101,6 +6583,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 138.43) (xy 342.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4057b7e9-3d1a-4bbe-b5ad-dcf8ccd71005")
+	)
+	(wire
+		(pts
 			(xy 129.54 95.25) (xy 129.54 96.52)
 		)
 		(stroke
@@ -6108,6 +6600,16 @@
 			(type default)
 		)
 		(uuid "416ad882-6666-4f1f-98ed-2df809af0362")
+	)
+	(wire
+		(pts
+			(xy 382.27 158.75) (xy 387.35 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42789ae5-6d6f-4881-8844-1069d2201fbd")
 	)
 	(wire
 		(pts
@@ -6131,6 +6633,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 149.86) (xy 312.42 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4425ad01-2995-4af4-bca7-33a3fd3c817c")
+	)
+	(wire
+		(pts
 			(xy 39.37 95.25) (xy 39.37 96.52)
 		)
 		(stroke
@@ -6141,7 +6653,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 210.82) (xy 361.95 210.82)
+			(xy 360.68 215.9) (xy 361.95 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6181,7 +6693,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 25.4) (xy 346.71 29.21)
+			(xy 346.71 29.21) (xy 346.71 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6221,7 +6733,17 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 203.2) (xy 354.33 213.36)
+			(xy 312.42 153.67) (xy 312.42 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48575de5-04a8-4eee-9cb2-727f56150c9a")
+	)
+	(wire
+		(pts
+			(xy 354.33 208.28) (xy 354.33 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6241,23 +6763,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 234.95) (xy 255.27 238.76)
+			(xy 255.27 222.25) (xy 255.27 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4907da63-0d76-471c-9984-9c95c0348716")
-	)
-	(wire
-		(pts
-			(xy 255.27 222.25) (xy 255.27 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49821795-e5e4-41b9-a37b-6e3adb277d1b")
 	)
 	(wire
 		(pts
@@ -6391,7 +6903,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 214.63) (xy 341.63 220.98)
+			(xy 341.63 219.71) (xy 341.63 226.06)
 		)
 		(stroke
 			(width 0)
@@ -6401,7 +6913,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 204.47) (xy 341.63 204.47)
+			(xy 334.01 209.55) (xy 341.63 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6521,16 +7033,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 162.56) (xy 351.79 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d90dd4e-81e6-4193-869a-9a67aa709c24")
-	)
-	(wire
-		(pts
 			(xy 243.84 137.16) (xy 242.57 137.16)
 		)
 		(stroke
@@ -6571,7 +7073,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 236.22) (xy 341.63 236.22)
+			(xy 336.55 241.3) (xy 341.63 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6591,7 +7093,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 228.6) (xy 341.63 228.6)
+			(xy 344.17 233.68) (xy 341.63 233.68)
 		)
 		(stroke
 			(width 0)
@@ -6621,13 +7123,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 157.48) (xy 332.74 165.1)
+			(xy 334.01 170.18) (xy 331.47 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6508e8cb-da1c-46ac-80e6-d3171b3790e6")
+		(uuid "645a8c9b-520b-42ed-8048-d4c6318aa9df")
 	)
 	(wire
 		(pts
@@ -6691,23 +7193,23 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 165.1) (xy 377.19 157.48)
+			(xy 342.9 158.75) (xy 346.71 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68122e58-7c42-406e-bd15-12ace44cfdd8")
+		(uuid "6959ff2c-0aaf-49d1-abde-13746dd45b05")
 	)
 	(wire
 		(pts
-			(xy 351.79 165.1) (xy 351.79 170.18)
+			(xy 255.27 231.14) (xy 255.27 236.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6954a135-4a7b-415b-a389-9d863598db8b")
+		(uuid "69bbe0e3-0132-419a-84d7-81457e9c08a9")
 	)
 	(wire
 		(pts
@@ -6731,13 +7233,43 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 210.82) (xy 356.87 210.82)
+			(xy 354.33 25.4) (xy 358.14 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b084320-fcbe-4d4f-98b1-8941cb1b7b75")
+	)
+	(wire
+		(pts
+			(xy 360.68 215.9) (xy 356.87 215.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b3f6612-8cc5-4778-bfd9-4b71860b99bf")
+	)
+	(wire
+		(pts
+			(xy 342.9 186.69) (xy 353.06 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c124314-19e7-492a-a814-1953b83762d9")
+	)
+	(wire
+		(pts
+			(xy 312.42 138.43) (xy 322.58 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c969227-fb02-4661-8468-30bd00245243")
 	)
 	(wire
 		(pts
@@ -6811,7 +7343,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 220.98) (xy 344.17 220.98)
+			(xy 341.63 226.06) (xy 344.17 226.06)
 		)
 		(stroke
 			(width 0)
@@ -6831,23 +7363,23 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 146.05) (xy 351.79 151.13)
+			(xy 346.71 153.67) (xy 346.71 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70f4c48a-ff65-42eb-bd8d-8780ac289384")
+		(uuid "70db9253-8688-4a4e-8956-9fcb405db643")
 	)
 	(wire
 		(pts
-			(xy 351.79 165.1) (xy 377.19 165.1)
+			(xy 312.42 153.67) (xy 322.58 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7105e756-8c67-4600-ad17-a38bc3c11e3a")
+		(uuid "71259678-125f-4c0b-a328-6f5c1f3716a3")
 	)
 	(wire
 		(pts
@@ -6881,6 +7413,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 248.92) (xy 243.84 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73079a3c-3867-496d-9125-dfd087aae290")
+	)
+	(wire
+		(pts
 			(xy 175.26 86.36) (xy 175.26 99.06)
 		)
 		(stroke
@@ -6908,6 +7450,16 @@
 			(type default)
 		)
 		(uuid "752b4234-c83f-4433-a12b-02898ea47f5c")
+	)
+	(wire
+		(pts
+			(xy 382.27 133.35) (xy 387.35 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7570b590-fb26-4c2f-9a79-31d7dddd1d85")
 	)
 	(wire
 		(pts
@@ -6971,7 +7523,17 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 201.93) (xy 341.63 204.47)
+			(xy 255.27 243.84) (xy 255.27 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78baa255-bc81-4ec8-ba8b-4236ea02cf5f")
+	)
+	(wire
+		(pts
+			(xy 341.63 207.01) (xy 341.63 209.55)
 		)
 		(stroke
 			(width 0)
@@ -7021,7 +7583,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 214.63) (xy 334.01 218.44)
+			(xy 334.01 219.71) (xy 334.01 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7051,13 +7613,23 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 236.22) (xy 336.55 234.95)
+			(xy 336.55 241.3) (xy 336.55 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ce65bde-e343-47f1-8e7e-72e665705439")
+	)
+	(wire
+		(pts
+			(xy 387.35 158.75) (xy 387.35 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3f5e62-f0e5-4626-b3db-b3c4032a440e")
 	)
 	(wire
 		(pts
@@ -7101,7 +7673,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 203.2) (xy 379.73 203.2)
+			(xy 354.33 208.28) (xy 379.73 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7121,7 +7693,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 228.6) (xy 341.63 236.22)
+			(xy 341.63 233.68) (xy 341.63 241.3)
 		)
 		(stroke
 			(width 0)
@@ -7151,7 +7723,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 106.68) (xy 351.79 102.87)
+			(xy 351.79 110.49) (xy 351.79 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7171,7 +7743,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 214.63) (xy 379.73 223.52)
+			(xy 379.73 219.71) (xy 379.73 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7181,7 +7753,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 218.44) (xy 334.01 218.44)
+			(xy 327.66 223.52) (xy 334.01 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7208,6 +7780,16 @@
 			(type default)
 		)
 		(uuid "8416ebe1-b0a6-4de7-bed4-c3c95bf8b7f2")
+	)
+	(wire
+		(pts
+			(xy 353.06 176.53) (xy 353.06 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85421cc9-b341-4dd4-8ce4-19eb64637ca3")
 	)
 	(wire
 		(pts
@@ -7251,16 +7833,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 138.43) (xy 327.66 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8655a8d2-75e6-4f7c-a71a-3b062e149141")
-	)
-	(wire
-		(pts
 			(xy 156.21 86.36) (xy 175.26 86.36)
 		)
 		(stroke
@@ -7278,6 +7850,16 @@
 			(type default)
 		)
 		(uuid "879d03b0-ddd5-4bf3-9542-00fe9fbeb2cc")
+	)
+	(wire
+		(pts
+			(xy 397.51 133.35) (xy 400.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ea6573-2b03-4112-87cb-f27baaa3a87d")
 	)
 	(wire
 		(pts
@@ -7351,16 +7933,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 138.43) (xy 365.76 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1346a2-c52c-4e73-b6e2-32014c10f83b")
-	)
-	(wire
-		(pts
 			(xy 231.14 86.36) (xy 231.14 99.06)
 		)
 		(stroke
@@ -7411,16 +7983,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 148.59) (xy 365.76 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e1bf41b-2195-4953-a325-c6195add0b88")
-	)
-	(wire
-		(pts
 			(xy 66.04 86.36) (xy 85.09 86.36)
 		)
 		(stroke
@@ -7441,13 +8003,23 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 151.13) (xy 351.79 151.13)
+			(xy 346.71 140.97) (xy 331.47 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "906052d1-c098-4606-b9b3-51d44a813038")
+		(uuid "91c9b2ca-2f64-4723-bc64-e8c6027ed471")
+	)
+	(wire
+		(pts
+			(xy 346.71 143.51) (xy 342.9 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935d891e-1e93-428c-a70c-5fbd354824ab")
 	)
 	(wire
 		(pts
@@ -7468,16 +8040,6 @@
 			(type default)
 		)
 		(uuid "95bad026-f56d-4a11-bf16-1ed5a3d12496")
-	)
-	(wire
-		(pts
-			(xy 365.76 138.43) (xy 365.76 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f23413-5276-4a05-9159-0fb7fe258d45")
 	)
 	(wire
 		(pts
@@ -7541,7 +8103,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 62.23) (xy 328.93 62.23)
+			(xy 325.12 66.04) (xy 328.93 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7568,16 +8130,6 @@
 			(type default)
 		)
 		(uuid "988eb2dc-2f89-4682-a682-8c286455d546")
-	)
-	(wire
-		(pts
-			(xy 327.66 138.43) (xy 332.74 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a396f58-96ac-4872-9332-cbfac35b786b")
 	)
 	(wire
 		(pts
@@ -7701,26 +8253,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 138.43) (xy 384.81 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3236253-f6b6-4869-8494-6a30c1d8b6b2")
-	)
-	(wire
-		(pts
-			(xy 377.19 149.86) (xy 377.19 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a39d600c-5abe-4988-9d1a-2e89b204d46b")
-	)
-	(wire
-		(pts
 			(xy 275.59 58.42) (xy 275.59 53.34)
 		)
 		(stroke
@@ -7768,6 +8300,16 @@
 			(type default)
 		)
 		(uuid "a572196f-4b8e-456e-92db-b92d189f47b6")
+	)
+	(wire
+		(pts
+			(xy 342.9 148.59) (xy 342.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d9fe28-9927-4914-8a22-35fe8a1ba7ec")
 	)
 	(wire
 		(pts
@@ -7831,6 +8373,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 149.86) (xy 322.58 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80f0a38-3f76-4459-82ed-d7947e5715ce")
+	)
+	(wire
+		(pts
 			(xy 151.13 46.99) (xy 151.13 48.26)
 		)
 		(stroke
@@ -7881,7 +8433,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 67.31) (xy 328.93 67.31)
+			(xy 325.12 71.12) (xy 328.93 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7898,6 +8450,16 @@
 			(type default)
 		)
 		(uuid "ae03bedd-e384-43df-a8af-e9530b8a5fc0")
+	)
+	(wire
+		(pts
+			(xy 317.5 170.18) (xy 321.31 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0f5948-1d07-4d37-94e0-fdc5270382c9")
 	)
 	(wire
 		(pts
@@ -7921,7 +8483,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 64.77) (xy 328.93 64.77)
+			(xy 325.12 68.58) (xy 328.93 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7988,6 +8550,16 @@
 			(type default)
 		)
 		(uuid "b5e993e2-6f48-4de5-a4d4-ef9b30dfbf29")
+	)
+	(wire
+		(pts
+			(xy 312.42 142.24) (xy 312.42 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ae180e-4f0a-4f04-bef0-2d5d0bef3259")
 	)
 	(wire
 		(pts
@@ -8061,13 +8633,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 138.43) (xy 332.74 149.86)
+			(xy 353.06 173.99) (xy 359.41 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9b9a204-b78a-45b5-b344-4a3f798e6512")
+		(uuid "ba78513e-447b-47b1-aed6-a7f83d379e8a")
 	)
 	(wire
 		(pts
@@ -8181,7 +8753,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 210.82) (xy 373.38 210.82)
+			(xy 369.57 215.9) (xy 373.38 215.9)
 		)
 		(stroke
 			(width 0)
@@ -8221,13 +8793,43 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 201.93) (xy 354.33 203.2)
+			(xy 354.33 207.01) (xy 354.33 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c65317d9-497f-43a2-9ff7-8e9408232699")
+	)
+	(wire
+		(pts
+			(xy 382.27 138.43) (xy 382.27 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7250e5f-c7a9-470c-b5a5-bdcabfd3945e")
+	)
+	(wire
+		(pts
+			(xy 387.35 143.51) (xy 387.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79be43a-638c-421a-89c5-18285bd50022")
+	)
+	(wire
+		(pts
+			(xy 342.9 173.99) (xy 342.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7dba78d-04b4-4897-beb6-b99557154b4d")
 	)
 	(wire
 		(pts
@@ -8238,6 +8840,16 @@
 			(type default)
 		)
 		(uuid "c7f44048-ad00-4089-91ed-710ccb639ec8")
+	)
+	(wire
+		(pts
+			(xy 342.9 173.99) (xy 353.06 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82c1a36-757d-46f3-b4e8-a048f441ebef")
 	)
 	(wire
 		(pts
@@ -8291,7 +8903,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 25.4) (xy 346.71 25.4)
+			(xy 341.63 29.21) (xy 346.71 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8321,7 +8933,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 220.98) (xy 341.63 220.98)
+			(xy 327.66 226.06) (xy 341.63 226.06)
 		)
 		(stroke
 			(width 0)
@@ -8341,13 +8953,23 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 106.68) (xy 351.79 106.68)
+			(xy 346.71 110.49) (xy 351.79 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cd917c0a-0331-405a-8e8f-ac967de903c5")
+	)
+	(wire
+		(pts
+			(xy 342.9 184.15) (xy 342.9 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9329fb-5d8a-4e7a-ae5f-0250e6488aa5")
 	)
 	(wire
 		(pts
@@ -8388,16 +9010,6 @@
 			(type default)
 		)
 		(uuid "ce8344d6-f721-4c41-b268-3aaa57aede20")
-	)
-	(wire
-		(pts
-			(xy 344.17 138.43) (xy 332.74 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf05b73e-4e8b-41e3-9e85-675f4aef1ee1")
 	)
 	(wire
 		(pts
@@ -8461,13 +9073,23 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 207.01) (xy 334.01 204.47)
+			(xy 334.01 212.09) (xy 334.01 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d515c96a-91ba-411c-9671-8a965cbd8ae5")
+	)
+	(wire
+		(pts
+			(xy 342.9 157.48) (xy 342.9 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75ea9c5-62c0-4284-8ce6-1e033398905c")
 	)
 	(wire
 		(pts
@@ -8631,7 +9253,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 218.44) (xy 344.17 218.44)
+			(xy 334.01 223.52) (xy 344.17 223.52)
 		)
 		(stroke
 			(width 0)
@@ -8661,7 +9283,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 223.52) (xy 379.73 223.52)
+			(xy 369.57 228.6) (xy 379.73 228.6)
 		)
 		(stroke
 			(width 0)
@@ -8721,7 +9343,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 213.36) (xy 356.87 210.82)
+			(xy 356.87 218.44) (xy 356.87 215.9)
 		)
 		(stroke
 			(width 0)
@@ -8758,6 +9380,16 @@
 			(type default)
 		)
 		(uuid "e82ca911-4d96-4211-82d8-1b8899c699ba")
+	)
+	(wire
+		(pts
+			(xy 331.47 140.97) (xy 331.47 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82eb71f-9726-49ca-bcf8-1803570a8062")
 	)
 	(wire
 		(pts
@@ -8831,6 +9463,26 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 173.99) (xy 342.9 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef78c358-8f97-4efc-9831-5e962413a6a1")
+	)
+	(wire
+		(pts
+			(xy 342.9 148.59) (xy 346.71 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef853675-fbf8-4bbb-8fe2-73c6e7caa315")
+	)
+	(wire
+		(pts
 			(xy 252.73 137.16) (xy 251.46 137.16)
 		)
 		(stroke
@@ -8858,6 +9510,16 @@
 			(type default)
 		)
 		(uuid "f14f35c4-f275-48e1-9754-025e608055cd")
+	)
+	(wire
+		(pts
+			(xy 342.9 138.43) (xy 346.71 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b392b5-0143-44df-a5b1-396b3e0bb429")
 	)
 	(wire
 		(pts
@@ -8931,13 +9593,33 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 238.76) (xy 255.27 252.73)
+			(xy 331.47 170.18) (xy 328.93 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f60a6e63-cd63-40aa-8de9-be6e729dc77f")
+		(uuid "f5899f48-c3da-4494-9b4e-00739ad63b0b")
+	)
+	(wire
+		(pts
+			(xy 240.03 201.93) (xy 245.11 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61ffb84-fb78-4f73-ac84-cd6ce31237d9")
+	)
+	(wire
+		(pts
+			(xy 342.9 170.18) (xy 342.9 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f689c400-f84b-4de4-807a-dbecf2ebd9c2")
 	)
 	(wire
 		(pts
@@ -8961,7 +9643,17 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 207.01) (xy 379.73 203.2)
+			(xy 342.9 158.75) (xy 342.9 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9967f1f-7436-4d23-b728-9572648235da")
+	)
+	(wire
+		(pts
+			(xy 379.73 212.09) (xy 379.73 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8981,7 +9673,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 238.76) (xy 255.27 238.76)
+			(xy 251.46 231.14) (xy 255.27 231.14)
 		)
 		(stroke
 			(width 0)
@@ -9064,7 +9756,7 @@
 	)
 	(global_label "Data 1"
 		(shape input)
-		(at 325.12 82.55 180)
+		(at 325.12 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9074,7 +9766,7 @@
 		)
 		(uuid "063aef58-ea9f-4eaa-a562-b01a7471ad78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.664 82.55 0)
+			(at 315.664 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,7 +9778,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 325.12 62.23 180)
+		(at 325.12 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9097,7 +9789,7 @@
 		)
 		(uuid "0694c973-28c0-4383-8991-8d2b48337699")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.5667 62.23 0)
+			(at 318.5667 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,7 +9845,7 @@
 	)
 	(global_label "SQW"
 		(shape input)
-		(at 384.81 223.52 0)
+		(at 384.81 228.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9164,7 +9856,7 @@
 		)
 		(uuid "30618ed0-87d8-4884-8a6c-a6adaa629491")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 391.7866 223.52 0)
+			(at 391.7866 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +9868,7 @@
 	)
 	(global_label "SQW"
 		(shape input)
-		(at 325.12 67.31 180)
+		(at 325.12 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9187,7 +9879,7 @@
 		)
 		(uuid "32c3b183-5c8d-4896-855a-4c34d28a6174")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.1434 67.31 0)
+			(at 318.1434 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,7 +9891,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 327.66 218.44 180)
+		(at 327.66 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9210,7 +9902,7 @@
 		)
 		(uuid "32e2df3e-dc44-4df8-a5b7-d65cf4b64608")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.1672 218.44 0)
+			(at 321.1672 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9245,7 +9937,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 327.66 220.98 180)
+		(at 327.66 226.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9256,7 +9948,7 @@
 		)
 		(uuid "44ea52e5-ba6d-4ec5-81bc-53bd69e50a53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.1067 220.98 0)
+			(at 321.1067 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +10005,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 325.12 64.77 180)
+		(at 325.12 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9324,7 +10016,7 @@
 		)
 		(uuid "73ba9653-2d05-4a0c-af23-557333526bdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.6272 64.77 0)
+			(at 318.6272 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +10184,7 @@
 	)
 	(global_label "Latch"
 		(shape input)
-		(at 325.12 77.47 180)
+		(at 325.12 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9502,7 +10194,7 @@
 		)
 		(uuid "c93ec6dc-48eb-45b8-b593-0561d9deae97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.9944 77.47 0)
+			(at 316.9944 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +10318,7 @@
 	)
 	(global_label "Clock"
 		(shape input)
-		(at 325.12 80.01 180)
+		(at 325.12 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9636,7 +10328,7 @@
 		)
 		(uuid "ffcac564-6eec-4e8d-838f-6daf4934f6b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.9339 80.01 0)
+			(at 316.9339 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +10396,7 @@
 			(uuid "b3fb47a6-dcd1-4ff2-9e1c-718597342014")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR020")
 					(unit 1)
@@ -9714,7 +10406,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 354.33 201.93 0)
+		(at 354.33 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9723,7 +10415,7 @@
 		(fields_autoplaced yes)
 		(uuid "0274b0e5-c00d-4c11-8726-3dcfe2674a87")
 		(property "Reference" "#PWR014"
-			(at 354.33 205.74 0)
+			(at 354.33 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9732,7 +10424,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 354.33 196.85 0)
+			(at 354.33 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9740,7 +10432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 354.33 201.93 0)
+			(at 354.33 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +10441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 354.33 201.93 0)
+			(at 354.33 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,7 +10450,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 354.33 201.93 0)
+			(at 354.33 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +10462,7 @@
 			(uuid "9ab4c39b-aa4b-430f-bdaa-c9cc29c2b14a")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR014")
 					(unit 1)
@@ -9780,7 +10472,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 341.63 210.82 0)
+		(at 341.63 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9789,7 +10481,7 @@
 		(fields_autoplaced yes)
 		(uuid "034fb4eb-dcd2-4d75-9874-41ad5baee524")
 		(property "Reference" "R1"
-			(at 344.17 209.5499 0)
+			(at 344.17 214.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +10490,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 344.17 212.0899 0)
+			(at 344.17 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +10499,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 339.852 210.82 90)
+			(at 339.852 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,7 +10508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 341.63 210.82 0)
+			(at 341.63 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +10517,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 341.63 210.82 0)
+			(at 341.63 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9840,7 +10532,7 @@
 			(uuid "33e8bbf2-7c63-4f98-937c-7d1de0bf0d1a")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "R1")
 					(unit 1)
@@ -10159,6 +10851,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 353.06 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c8ccb6b-b20b-468d-bde0-5e30110e34ad")
+		(property "Reference" "C25"
+			(at 356.87 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 356.87 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.0252 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 353.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dee665a0-11b8-47de-88ca-63e67e35f28d")
+		)
+		(pin "2"
+			(uuid "9118d3d1-f672-4117-b334-19f9bedd78a1")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC595")
 		(at 63.5 58.42 270)
 		(unit 1)
@@ -10328,9 +11090,143 @@
 			(uuid "9e2ae0f4-4492-4ad6-994d-e75639cffb9c")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 309.88 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10789acd-4a91-4ce7-b318-f0938e76081a")
+		(property "Reference" "#PWR018"
+			(at 313.69 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 306.07 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 309.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2a7d2cf-e184-4b16-ac0c-83646c7ef1fa")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 248.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12aa1a95-f272-4fcc-aff0-0f012174eca0")
+		(property "Reference" "#PWR055"
+			(at 233.68 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 248.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "585b3b28-6c78-4969-9ba8-786ef154d8a9")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10396,7 +11292,7 @@
 			(uuid "4bc7990a-9d23-454c-841e-a023df92526d")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "D1")
 					(unit 1)
@@ -10479,7 +11375,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1e5b51ab-4646-40d4-bc18-ae5c2087eb3c")
+		(uuid "2208d118-c231-425a-93bd-34683b5d4929")
 		(property "Reference" "R12"
 			(at 157.48 130.81 90)
 			(effects
@@ -10488,7 +11384,7 @@
 				)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "10k"
 			(at 157.48 133.35 90)
 			(effects
 				(font
@@ -10496,7 +11392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 157.48 138.938 90)
 			(effects
 				(font
@@ -10524,10 +11420,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56cbefe1-9f77-4e13-b799-8f59df779c1e")
+			(uuid "2e8c5386-622d-487b-9582-443331bf4fd2")
 		)
 		(pin "2"
-			(uuid "4331568d-48a7-4a7b-a87f-557f29696edc")
+			(uuid "b412bfd7-1594-404b-82f2-54c5ec67d08c")
 		)
 		(instances
 			(project "Nixie-Tube-Clock-PCB"
@@ -10539,35 +11435,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 384.81 138.43 270)
+		(lib_id "Device:C")
+		(at 350.52 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1f688072-c5db-47c5-a073-250aa18c3945")
-		(property "Reference" "#PWR018"
-			(at 381 138.43 0)
+		(uuid "22ee36dd-1526-4143-9bc1-c4512e5f8dc4")
+		(property "Reference" "C21"
+			(at 350.52 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 388.62 138.4299 90)
+		(property "Value" "0.1u"
+			(at 350.52 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 384.81 138.43 0)
+			(at 354.33 24.4348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,8 +11469,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 384.81 138.43 0)
+		(property "Datasheet" "~"
+			(at 350.52 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,22 +11478,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 384.81 138.43 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 350.52 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "ae55a317-bb96-4941-bf4a-2fe348b3fe9d")
 		)
 		(pin "1"
-			(uuid "2718deea-f489-46b9-bca2-5381b337fb9d")
+			(uuid "e281e6e7-9c0a-4b3d-9465-7a2de76991e7")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "#PWR018")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10718,43 +11615,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM317_SOT-223")
-		(at 351.79 138.43 0)
+		(lib_id "Device:R")
+		(at 25.4 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b09ef61-b759-48f3-b5e4-608a99a7643b")
-		(property "Reference" "U4"
-			(at 351.79 132.08 0)
+		(uuid "2761ec9a-04ed-4bbd-9b72-2b59669216e1")
+		(property "Reference" "R15"
+			(at 25.4 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM317_SOT-223"
-			(at 351.79 134.62 0)
+		(property "Value" "10k"
+			(at 25.4 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 351.79 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
-			(at 351.79 138.43 0)
+		(property "Footprint" ""
+			(at 25.4 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10762,8 +11649,87 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
-			(at 351.79 138.43 0)
+		(property "Datasheet" "~"
+			(at 25.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 25.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8af4d813-e383-40f2-bf15-b6ef76a878b4")
+		)
+		(pin "2"
+			(uuid "5b96b407-3f86-4994-9fb9-195daa6988ef")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 387.35 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28124c9b-1a7f-4058-858c-d66f3611f06a")
+		(property "Reference" "R4"
+			(at 389.89 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 389.89 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 385.572 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 387.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10772,18 +11738,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9fa07c52-fa11-457b-b760-c66a1aab1778")
+			(uuid "8b79d964-4047-4c33-a2cf-165887e35342")
 		)
 		(pin "1"
-			(uuid "e4ea66a9-a10a-44f1-8202-e81e15003a50")
-		)
-		(pin "3"
-			(uuid "affce421-471e-40a6-871c-a8ad8641ee64")
+			(uuid "78911e98-3d1c-4a22-a1e2-e83c6a03c710")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "U4")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10791,7 +11754,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 346.71 106.68 270)
+		(at 346.71 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10800,7 +11763,7 @@
 		(fields_autoplaced yes)
 		(uuid "2eea7593-5c6c-4904-8087-f11a432b5b74")
 		(property "Reference" "#PWR052"
-			(at 340.36 106.68 0)
+			(at 340.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +11772,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 342.9 106.6799 90)
+			(at 342.9 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +11781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 106.68 0)
+			(at 346.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +11790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 106.68 0)
+			(at 346.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10836,7 +11799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 346.71 106.68 0)
+			(at 346.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +11811,7 @@
 			(uuid "ac164dcf-e8d3-4391-bb66-a18233aec69b")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR052")
 					(unit 1)
@@ -10858,7 +11821,7 @@
 	)
 	(symbol
 		(lib_id "Timer_RTC:DS1307N+")
-		(at 356.87 223.52 0)
+		(at 356.87 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10866,7 +11829,7 @@
 		(dnp no)
 		(uuid "3483f352-068e-4708-9fe5-af8545a192d4")
 		(property "Reference" "U5"
-			(at 373.126 227.584 0)
+			(at 373.126 232.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10874,7 +11837,7 @@
 			)
 		)
 		(property "Value" "DS1307N+"
-			(at 373.126 230.124 0)
+			(at 373.126 235.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10882,7 +11845,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 356.87 236.22 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +11854,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DS1307.pdf"
-			(at 356.87 228.6 0)
+			(at 356.87 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10900,7 +11863,7 @@
 			)
 		)
 		(property "Description" "64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, -40°C to +85°C, DIP-8"
-			(at 356.87 223.52 0)
+			(at 356.87 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,7 +11896,7 @@
 			(uuid "7ae152b7-b62a-41cd-b323-a63c71ed102e")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "U5")
 					(unit 1)
@@ -11112,7 +12075,7 @@
 			(uuid "453b94eb-b075-4c04-bbac-67bedbe91da4")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR053")
 					(unit 1)
@@ -11250,7 +12213,7 @@
 			(uuid "ca732059-be8f-4be2-b7d8-a8dd55e011f7")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "L1")
 					(unit 1)
@@ -11317,7 +12280,7 @@
 			(uuid "f1df97af-10b1-4625-94b3-34781b269288")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR022")
 					(unit 1)
@@ -11421,6 +12384,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 312.42 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41cb68af-461e-4b40-b5aa-bd08950af7f0")
+		(property "Reference" "#PWR017"
+			(at 312.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 312.42 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 312.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "312c4819-a038-48eb-841e-cd2f3209490c")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 262.89 68.58 180)
 		(unit 1)
@@ -11481,6 +12510,143 @@
 			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 322.58 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42140a8e-c583-46d1-96b1-71b2f58fe8d7")
+		(property "Reference" "C5"
+			(at 326.39 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220n"
+			(at 326.39 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.5452 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 322.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d28e1218-1690-4f9a-97a3-b120aebb5ba6")
+		)
+		(pin "1"
+			(uuid "26852cb3-36fb-4293-b570-24b6c0fa8bc2")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 359.41 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42dbf92b-83e4-4801-80f7-99312e7bb298")
+		(property "Reference" "#PWR060"
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 363.22 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 359.41 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 359.41 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ac7fc28-3647-42ed-87d4-28735e78ee0d")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -11686,7 +12852,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 379.73 210.82 0)
+		(at 379.73 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11695,7 +12861,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e2c99c4-e0f4-49a5-b061-d8613b743b3a")
 		(property "Reference" "R3"
-			(at 382.27 209.5499 0)
+			(at 382.27 214.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11704,7 +12870,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 382.27 212.0899 0)
+			(at 382.27 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11713,7 +12879,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 377.952 210.82 90)
+			(at 377.952 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,7 +12888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 379.73 210.82 0)
+			(at 379.73 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11731,7 +12897,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 379.73 210.82 0)
+			(at 379.73 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11746,7 +12912,7 @@
 			(uuid "135e60e1-c7b4-4f08-9543-5ec62528c84e")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "R3")
 					(unit 1)
@@ -11755,8 +12921,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 387.35 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f296627-6ac4-4b4c-a729-99b112cf8281")
+		(property "Reference" "#PWR019"
+			(at 387.35 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 387.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 387.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2725c2fc-6130-4867-a444-886aeb4eed80")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 339.09 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "500a34fe-32ef-4ccc-b2ef-14c2d1fdfb01")
+		(property "Reference" "#PWR059"
+			(at 332.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 186.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 339.09 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ad8755e-1453-4b5f-8547-08d207df3514")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 247.65 238.76 90)
+		(at 247.65 231.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11764,7 +13061,7 @@
 		(dnp no)
 		(uuid "50995b4e-3cf1-4069-ad08-43d66f5008c7")
 		(property "Reference" "C19"
-			(at 247.65 243.586 90)
+			(at 247.65 235.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11772,7 +13069,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 247.65 246.126 90)
+			(at 247.65 238.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11780,7 +13077,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 251.46 237.7948 0)
+			(at 251.46 230.1748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11789,7 +13086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 238.76 0)
+			(at 247.65 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11798,7 +13095,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 247.65 238.76 0)
+			(at 247.65 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11813,7 +13110,7 @@
 			(uuid "7c0c823c-0cbf-4179-afc1-d99531b94875")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "C19")
 					(unit 1)
@@ -12122,7 +13419,7 @@
 			(uuid "c4fb01b6-29fe-452c-b591-ece3c7de4e57")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "U6")
 					(unit 1)
@@ -12324,7 +13621,7 @@
 			(uuid "789c2cd5-5223-4fb3-81a1-116ff9b6e43d")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "C9")
 					(unit 1)
@@ -12494,6 +13791,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 205.74 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61f94e44-125e-4f3c-a3e8-9eb0bc774dfc")
+		(property "Reference" "R11"
+			(at 205.74 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 205.74 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20d0a85d-b807-46f9-a047-e2e6f61cdc8d")
+		)
+		(pin "2"
+			(uuid "75ba7146-f475-434f-b9c2-9914d1b067cf")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 78.74 260.35 0)
 		(unit 1)
@@ -12555,7 +13920,7 @@
 			(uuid "8218acc9-6461-45e9-9e1e-ae872267e50d")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "C6")
 					(unit 1)
@@ -12694,9 +14059,77 @@
 			(uuid "1c65d60f-8b3f-4510-81bf-e008c72ec6e2")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 247.65 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "661a3bdb-b077-4e5a-975d-87d2d0047105")
+		(property "Reference" "R10"
+			(at 247.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 247.65 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "179a87c6-0704-44e8-9b17-d9164fe4cfa4")
+		)
+		(pin "2"
+			(uuid "37680e53-68ea-4e9c-bcea-a0c17d09415f")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12769,8 +14202,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 317.5 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66ca3545-5ece-4f9a-b174-5af05caa4ec0")
+		(property "Reference" "#PWR058"
+			(at 311.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 313.69 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 317.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3d41bcc-d2a4-49ed-b749-1b6ada278fe5")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 334.01 210.82 0)
+		(at 334.01 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12779,7 +14279,7 @@
 		(fields_autoplaced yes)
 		(uuid "66e09b95-0a6a-46f6-97d7-46c0876d0552")
 		(property "Reference" "R2"
-			(at 336.55 209.5499 0)
+			(at 336.55 214.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12788,7 +14288,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 336.55 212.0899 0)
+			(at 336.55 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12797,7 +14297,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 332.232 210.82 90)
+			(at 332.232 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12806,7 +14306,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.01 210.82 0)
+			(at 334.01 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12815,7 +14315,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 334.01 210.82 0)
+			(at 334.01 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12830,7 +14330,7 @@
 			(uuid "58c2892e-5297-44ec-8bd4-aabc14b11a61")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "R2")
 					(unit 1)
@@ -12905,74 +14405,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 247.65 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "675e0231-38b7-4811-a397-76802966133a")
-		(property "Reference" "R10"
-			(at 247.65 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15k"
-			(at 247.65 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 247.65 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 247.65 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55df52f8-3470-40c2-b729-68f25ec8cdd4")
-		)
-		(pin "2"
-			(uuid "f46fde9c-4f25-4a69-a6a8-20d99334e13d")
-		)
-		(instances
-			(project ""
-				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 95.25 180)
 		(unit 1)
@@ -13040,7 +14472,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 373.38 210.82 0)
+		(at 373.38 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13049,7 +14481,7 @@
 		(fields_autoplaced yes)
 		(uuid "6db7db42-b69b-4e01-a684-c147563bfbf5")
 		(property "Reference" "#PWR016"
-			(at 373.38 217.17 0)
+			(at 373.38 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13058,7 +14490,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 373.38 215.9 0)
+			(at 373.38 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13066,7 +14498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 373.38 210.82 0)
+			(at 373.38 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13075,7 +14507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 210.82 0)
+			(at 373.38 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13084,7 +14516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 210.82 0)
+			(at 373.38 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13096,7 +14528,7 @@
 			(uuid "936950fc-2d26-4370-8367-1cad11bec1a3")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR016")
 					(unit 1)
@@ -13166,7 +14598,7 @@
 			(uuid "aed50999-ba02-4472-93a5-8331056d4873")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "R16")
 					(unit 1)
@@ -13175,35 +14607,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 351.79 158.75 0)
+		(lib_id "power:GND")
+		(at 358.14 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7017e574-5c5d-434d-9175-2560967f8f7c")
-		(property "Reference" "R5"
-			(at 354.33 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "720"
-			(at 354.33 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 350.012 158.75 90)
+		(uuid "713275e4-37cf-4a67-8493-be2c9f9e2fea")
+		(property "Reference" "#PWR056"
+			(at 364.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13211,8 +14625,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 351.79 158.75 0)
+		(property "Value" "GND"
+			(at 361.95 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13220,8 +14643,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 351.79 158.75 0)
+		(property "Datasheet" ""
+			(at 358.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13230,85 +14662,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f746477-aa47-4bb6-8f0a-296d07975222")
-		)
-		(pin "2"
-			(uuid "57a55769-72f9-4eef-815a-ab700891b600")
+			(uuid "76d7c629-1324-4bd8-ba61-573bc16831d7")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 365.76 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70410bf4-1c0b-44ed-8f8b-88a3c7f64f57")
-		(property "Reference" "R4"
-			(at 368.3 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "240"
-			(at 368.3 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 363.982 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 365.76 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 365.76 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fe3e1a85-9498-4e20-ad98-09f2ea916b91")
-		)
-		(pin "1"
-			(uuid "8c891cf6-4590-4f18-83dd-1bf9e7430025")
-		)
-		(instances
-			(project ""
-				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "R4")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -13404,6 +14763,76 @@
 			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 342.9 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7659c7d6-d8fd-4612-b752-48888f2f6858")
+		(property "Reference" "C24"
+			(at 346.71 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 346.71 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 343.8652 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 342.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72a01ef3-7560-4a60-ac60-96e367c40c3a")
+		)
+		(pin "2"
+			(uuid "b7e5c20f-9bf3-4c4a-bf42-d94f55f72408")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -13647,7 +15076,7 @@
 			(uuid "b4c44e7a-3ddb-4895-b9fa-d251c5494032")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR028")
 					(unit 1)
@@ -13717,7 +15146,7 @@
 			(uuid "ccda88e4-91b0-451c-a3e3-a8c0e1241a7f")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "C7")
 					(unit 1)
@@ -13792,6 +15221,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 393.7 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f446515-0c9f-4bd5-a9e7-21df8af5c62a")
+		(property "Reference" "C22"
+			(at 393.7 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 393.7 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 132.3848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 393.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9637b55d-b01e-45cf-b931-c75ce4873a36")
+		)
+		(pin "1"
+			(uuid "fb83bc8c-aea9-436b-8eb0-5b15a5fb4501")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 67.31 252.73 0)
 		(unit 1)
@@ -13852,7 +15349,7 @@
 			(uuid "755131a6-77fd-4842-89b2-86dc811a529d")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "R6")
 					(unit 1)
@@ -13921,6 +15418,76 @@
 			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 255.27 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "883ab98d-0406-49e3-9fec-830de2f5e02b")
+		(property "Reference" "FB1"
+			(at 259.08 238.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 259.08 241.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 253.492 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 255.27 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96bad36d-78cb-4eca-9718-e82242edd18f")
+		)
+		(pin "2"
+			(uuid "dfe78176-4711-4950-a590-9274e626fc53")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -14077,7 +15644,7 @@
 			(uuid "899fc3f2-6d51-487d-a570-530c7788931e")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "D5")
 					(unit 1)
@@ -14219,17 +15786,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 341.63 201.93 0)
+		(lib_id "power:GND")
+		(at 400.05 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8e0249d0-50f7-4021-a47f-048c80cefb99")
-		(property "Reference" "#PWR015"
-			(at 341.63 205.74 0)
+		(uuid "8a28fafb-4f8a-4fee-9516-14a43246a5e5")
+		(property "Reference" "#PWR057"
+			(at 400.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14237,8 +15804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 341.63 196.85 0)
+		(property "Value" "GND"
+			(at 400.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14246,7 +15813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 201.93 0)
+			(at 400.05 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14255,7 +15822,73 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 400.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 400.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7a0d40f-1d31-4db6-88f3-3e50de1e5b9d")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 341.63 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e0249d0-50f7-4021-a47f-048c80cefb99")
+		(property "Reference" "#PWR015"
+			(at 341.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
 			(at 341.63 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14264,7 +15897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 341.63 201.93 0)
+			(at 341.63 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14276,79 +15909,9 @@
 			(uuid "5b585423-9a18-4798-a556-b93fc5eccf0d")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 377.19 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fc73a5d-c51f-422f-bcdf-11ca388d9cd8")
-		(property "Reference" "C5"
-			(at 381 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 381 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
-			(at 378.1552 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 377.19 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 377.19 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a885b92c-4b4d-4cfc-bab5-4108793082af")
-		)
-		(pin "1"
-			(uuid "0c444fa1-5c3e-40da-bfe2-592706bca526")
-		)
-		(instances
-			(project ""
-				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -14413,77 +15976,9 @@
 			(uuid "c0032c12-c20d-439a-8dd0-549c45b17d17")
 		)
 		(instances
-			(project ""
-				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92ff733e-8647-4823-a8ef-bb8c9dcad4ae")
-		(property "Reference" "R13"
-			(at 115.57 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15k"
-			(at 115.57 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 115.57 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcbe535a-6fb2-473f-8f66-85dc63676452")
-		)
-		(pin "2"
-			(uuid "2f82af07-8963-40a0-9f20-c8edd2773a50")
-		)
-		(instances
 			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "R13")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14751,7 +16246,7 @@
 			(uuid "25c583ff-fd4a-48c2-91f7-13531b7e54c4")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR024")
 					(unit 1)
@@ -14953,7 +16448,7 @@
 			(uuid "6133a5c4-4273-4aad-b7c2-8c6121480733")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "C10")
 					(unit 1)
@@ -15029,34 +16524,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 360.68 210.82 0)
+		(lib_id "Device:C")
+		(at 312.42 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a76a10e3-50c7-4a59-8e9d-e8c8055d68d6")
-		(property "Reference" "#FLG01"
-			(at 360.68 208.915 0)
+		(uuid "a54a4222-b4cd-42ad-8fd4-306372b994a9")
+		(property "Reference" "C4"
+			(at 316.23 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 360.68 205.74 0)
+		(property "Value" "10u"
+			(at 316.23 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 210.82 0)
+			(at 313.3852 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15065,7 +16561,76 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 312.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 312.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e77b6e32-ccd0-401e-af46-ad5c85486d18")
+		)
+		(pin "2"
+			(uuid "93126624-1913-482d-b330-a732192e9406")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 360.68 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a76a10e3-50c7-4a59-8e9d-e8c8055d68d6")
+		(property "Reference" "#FLG01"
+			(at 360.68 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
 			(at 360.68 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15074,7 +16639,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 360.68 210.82 0)
+			(at 360.68 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15086,77 +16651,9 @@
 			(uuid "5137f29b-b339-4a19-9c5e-c2db818a4b95")
 		)
 		(instances
-			(project ""
-				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 25.4 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a86ccb43-2178-47dc-8c85-37bc75ce3eb0")
-		(property "Reference" "R15"
-			(at 25.4 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15k"
-			(at 25.4 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 25.4 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 25.4 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74a68b50-082c-4cfb-b5d1-260668ab620a")
-		)
-		(pin "2"
-			(uuid "d695589d-3403-4abb-b514-7cf3d14848a8")
-		)
-		(instances
 			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "R15")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -15224,7 +16721,7 @@
 			(uuid "f42561a1-e4b1-4b18-bcc3-fc081715de82")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "C12")
 					(unit 1)
@@ -15389,7 +16886,7 @@
 			(uuid "27cfd9ad-8d8d-4ee6-a605-51e3c786e324")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "C8")
 					(unit 1)
@@ -15398,34 +16895,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 327.66 138.43 0)
+		(lib_id "Device:C")
+		(at 247.65 248.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0bf92de-d984-4c2b-8164-c97500b0002b")
-		(property "Reference" "#FLG02"
-			(at 327.66 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 327.66 133.35 0)
+		(uuid "b0ad44e5-bc49-4f32-a3a2-a01b59df46ce")
+		(property "Reference" "C20"
+			(at 247.65 253.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 327.66 138.43 0)
+		(property "Value" "0.1u"
+			(at 247.65 256.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 251.46 247.9548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15434,7 +16929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 327.66 138.43 0)
+			(at 247.65 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15442,22 +16937,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 327.66 138.43 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 247.65 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "fdf26fbf-ed90-4a67-9521-a1f4947709e0")
 		)
 		(pin "1"
-			(uuid "e5c900ba-7043-4db7-9991-81155896c9f1")
+			(uuid "79009d35-282f-4127-896e-6aea262caaa0")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "#FLG02")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -15591,75 +17089,9 @@
 			(uuid "086bee2a-3314-4cec-8419-4ab071ee9fc1")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 351.79 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b758e160-a1f4-4ff8-afa8-58babbdfd895")
-		(property "Reference" "#PWR017"
-			(at 351.79 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 351.79 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 351.79 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.79 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 351.79 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7aef796-85ed-452b-bbdb-b46fdd7bef14")
-		)
-		(instances
-			(project ""
-				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15727,7 +17159,7 @@
 			(uuid "d05cbdd5-2d9a-4b72-9894-59c923b5b69d")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "C11")
 					(unit 1)
@@ -15888,7 +17320,7 @@
 			(uuid "392d744c-89d6-4765-8e1a-4924c5cfead5")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "J1")
 					(unit 1)
@@ -15957,6 +17389,76 @@
 			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 325.12 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb15bf1-bd11-4367-8014-015a0ba98033")
+		(property "Reference" "R17"
+			(at 326.3901 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24.9k"
+			(at 323.8501 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 168.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 325.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab207920-490c-48d1-96e9-b4c5d05645e0")
+		)
+		(pin "2"
+			(uuid "d76e5b86-ccae-4d7b-a4cb-3a9717dcb1d4")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -16094,7 +17596,7 @@
 			(uuid "3d193802-3474-4661-89e3-f9de64f83ad6")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "R7")
 					(unit 1)
@@ -16104,7 +17606,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 238.76 270)
+		(at 240.03 231.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16113,7 +17615,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2b3b566-30da-45f8-966f-41f52e120dcd")
 		(property "Reference" "#PWR049"
-			(at 233.68 238.76 0)
+			(at 233.68 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16122,7 +17624,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 238.7599 90)
+			(at 236.22 231.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16131,7 +17633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 238.76 0)
+			(at 240.03 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16140,7 +17642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 238.76 0)
+			(at 240.03 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16149,7 +17651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 238.76 0)
+			(at 240.03 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16161,7 +17663,7 @@
 			(uuid "e1b0d8d4-11a3-4ff3-9f40-d160849b6bbd")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR049")
 					(unit 1)
@@ -16170,17 +17672,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 332.74 153.67 0)
+		(lib_id "Device:R")
+		(at 337.82 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c46cde6d-82b1-4eac-9d72-003129d4a4b4")
-		(property "Reference" "C4"
-			(at 336.55 152.3999 0)
+		(uuid "c2d4933b-f868-42fb-8c4e-8728e40541f7")
+		(property "Reference" "R5"
+			(at 339.0901 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,8 +17690,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 336.55 154.9399 0)
+		(property "Value" "100k"
+			(at 336.5501 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16197,8 +17699,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
-			(at 333.7052 157.48 0)
+		(property "Footprint" ""
+			(at 337.82 168.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16207,7 +17709,76 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 332.74 153.67 0)
+			(at 337.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 337.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19d2063e-6dca-48c0-a595-ec495c32b4a8")
+		)
+		(pin "2"
+			(uuid "5c1147cd-4783-413d-91a0-b5a69a566073")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 342.9 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7f9488b-f058-40f8-9580-53c37981273a")
+		(property "Reference" "C23"
+			(at 336.042 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 336.042 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.9348 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16216,7 +17787,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 332.74 153.67 0)
+			(at 342.9 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16225,15 +17796,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3fcf0396-e220-457c-b2e6-36233d9f5882")
+			(uuid "87273280-e32e-49a0-b1cb-5a37172d69f0")
 		)
 		(pin "1"
-			(uuid "63ad384b-416f-45e7-853a-d663d604f4d0")
+			(uuid "f3133dab-7166-4ac2-a7ac-4e3c0e0d62d1")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "C4")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16297,76 +17868,9 @@
 			(uuid "189e62fd-609a-4fcb-80c7-d1402b72f55c")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 325.12 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccc45c26-2d1d-4ae3-8823-5cfb59c9a1f8")
-		(property "Reference" "#PWR019"
-			(at 328.93 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 321.31 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 325.12 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e77daa8a-5103-4ca4-8cac-c3dd30e5349f")
-		)
-		(instances
-			(project ""
-				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -16430,7 +17934,7 @@
 			(uuid "6656db4e-3dba-4d26-908f-c11711b41dae")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR025")
 					(unit 1)
@@ -16608,7 +18112,7 @@
 			(uuid "452c4b86-e39d-4a42-abcf-b3f816fbcdbb")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR054")
 					(unit 1)
@@ -16687,76 +18191,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 255.27 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4fcd38a-9b18-421e-9090-c091f91fdc1e")
-		(property "Reference" "D4"
-			(at 257.81 230.1874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 257.81 232.7274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
-			(at 255.27 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 255.27 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36f8358e-6958-4ab8-93be-93b4889d67bf")
-		)
-		(pin "2"
-			(uuid "90eb9214-a440-42e2-a2e2-50e33798e037")
-		)
-		(instances
-			(project "Nixie-Tube-Clock-PCB"
-				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 124.46 238.76 0)
 		(unit 1)
@@ -16818,7 +18252,7 @@
 			(uuid "1394a2dd-5a45-4d70-82c9-c440ce562ce5")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "R9")
 					(unit 1)
@@ -16828,7 +18262,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 367.03 210.82 90)
+		(at 367.03 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16836,7 +18270,7 @@
 		(dnp no)
 		(uuid "d5f1c738-3abe-46b2-b509-b548f41f34c3")
 		(property "Reference" "BT1"
-			(at 371.348 204.978 90)
+			(at 371.348 210.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16844,7 +18278,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 371.348 207.518 90)
+			(at 371.348 212.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16852,7 +18286,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Renata_SMTU2032-LF_1x2032"
-			(at 365.506 210.82 90)
+			(at 365.506 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16861,7 +18295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 365.506 210.82 90)
+			(at 365.506 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16870,7 +18304,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 367.03 210.82 0)
+			(at 367.03 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16879,7 +18313,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 367.03 210.82 0)
+			(at 367.03 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16888,7 +18322,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 367.03 210.82 0)
+			(at 367.03 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16897,7 +18331,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 367.03 210.82 0)
+			(at 367.03 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16912,7 +18346,7 @@
 			(uuid "d35717cb-616b-406d-87c4-a51f450260bb")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "BT1")
 					(unit 1)
@@ -16988,7 +18422,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 336.55 231.14 270)
+		(at 336.55 236.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16996,7 +18430,7 @@
 		(dnp no)
 		(uuid "dacd7f69-0b21-4fee-be74-1154295ce5df")
 		(property "Reference" "ABS06-32.768KHZ-T1"
-			(at 310.896 229.616 90)
+			(at 310.896 234.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17005,7 +18439,7 @@
 			)
 		)
 		(property "Value" "Crystal Oscilator"
-			(at 310.896 232.156 90)
+			(at 310.896 237.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17014,7 +18448,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm_HandSoldering"
-			(at 336.55 231.14 0)
+			(at 336.55 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17023,7 +18457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 231.14 0)
+			(at 336.55 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17032,7 +18466,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 336.55 231.14 0)
+			(at 336.55 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17047,7 +18481,7 @@
 			(uuid "d1aab7b5-8d54-4f3d-8652-e96679285edf")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "ABS06-32.768KHZ-T1")
 					(unit 1)
@@ -17189,74 +18623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 205.74 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df587ab0-f312-4c79-8136-86ef4d73cf8a")
-		(property "Reference" "R11"
-			(at 205.74 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15k"
-			(at 205.74 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 205.74 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 205.74 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8a0f667-e33f-4d1d-9dd2-8fcb9e3c6edc")
-		)
-		(pin "2"
-			(uuid "c7c661f1-8eea-46f9-bc74-ca381ddfc94c")
-		)
-		(instances
-			(project "Nixie-Tube-Clock-PCB"
-				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 148.59 237.49 0)
 		(unit 1)
@@ -17314,7 +18680,7 @@
 			(uuid "18b0f517-89d6-4ef6-996d-36c304f6d10d")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR023")
 					(unit 1)
@@ -17383,6 +18749,176 @@
 			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LMR33630BDDAR:LMR33630BDDAR")
+		(at 364.49 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6aac998-ef42-43f5-ae01-3095603d1763")
+		(property "Reference" "U4"
+			(at 364.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR33630BDDAR"
+			(at 364.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LMR33630BDDAR:VREG_LM5017MR_NOPB"
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SIMPLE SWITCHER® 3.8V to 36V, 3A Synchronous Buck Converter With Ultra-Low EMI"
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "HSOIC-8 Texas Instruments"
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMR33630BDDAR/Texas+Instruments/view-part/?ref=snap"
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LMR33630BDDAR"
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LMR33630BDDAR/Texas+Instruments/view-part/?ref=eda"
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3e9b4d-edde-4da3-84bf-746cd12d8f5d")
+		)
+		(pin "8"
+			(uuid "de382c8d-d021-4de6-bc90-58eca714c468")
+		)
+		(pin "4"
+			(uuid "348c91e8-dc0a-4ba7-a25f-bebc6ada20c1")
+		)
+		(pin "5"
+			(uuid "d24e1a4e-4775-454c-83f8-bd2809ce1637")
+		)
+		(pin "3"
+			(uuid "fe0cc51d-4f04-4378-92df-57093040b43c")
+		)
+		(pin "2"
+			(uuid "7360b23c-7c79-43c4-b73a-42c860de35dd")
+		)
+		(pin "7"
+			(uuid "6f653609-b5f6-4388-9b26-958762f34491")
+		)
+		(pin "9"
+			(uuid "f9b99855-d68c-4dba-a880-520e14078a31")
+		)
+		(pin "6"
+			(uuid "4c4c53c5-966a-4d72-ab54-47b247ef05c4")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -17460,7 +18996,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 255.27 252.73 180)
+		(at 255.27 257.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17469,7 +19005,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7d3f026-aae4-4ddc-8c78-1ce8e3703da1")
 		(property "Reference" "#PWR050"
-			(at 255.27 248.92 0)
+			(at 255.27 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17478,7 +19014,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 255.27 257.81 0)
+			(at 255.27 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17486,7 +19022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 252.73 0)
+			(at 255.27 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17495,7 +19031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 252.73 0)
+			(at 255.27 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17504,7 +19040,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 255.27 252.73 0)
+			(at 255.27 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17516,7 +19052,7 @@
 			(uuid "c6f9ec4c-f2e3-4d31-b603-8490a26d48a1")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR050")
 					(unit 1)
@@ -17586,7 +19122,7 @@
 			(uuid "d05f8e82-084c-4931-902d-8ddd2e00d71e")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "D2")
 					(unit 1)
@@ -17657,6 +19193,140 @@
 			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 342.9 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e97f2569-d73a-41ed-89f7-0e5211d39bd0")
+		(property "Reference" "L2"
+			(at 346.202 163.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8u"
+			(at 348.742 163.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 342.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c7cca07-a672-4b86-83a3-f6524055d37d")
+		)
+		(pin "2"
+			(uuid "4b1a7110-f1cf-4b98-8b30-2b21008abf47")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 201.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea6621dd-0dc3-4887-96e1-c46d08d7a497")
+		(property "Reference" "#PWR061"
+			(at 233.68 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 201.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f786e43-51bc-47c3-9036-3cc4e7e7f309")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -17836,7 +19506,7 @@
 			(uuid "14cd5891-be9e-4d89-ae97-b2c7fe40dec9")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "R8")
 					(unit 1)
@@ -17902,7 +19572,7 @@
 			(uuid "09d9171b-aba6-46f9-aff5-87b86ba5a2a5")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR026")
 					(unit 1)
@@ -17912,7 +19582,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico_W")
-		(at 351.79 67.31 0)
+		(at 351.79 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17921,7 +19591,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3599d6d-dc58-49dd-a70b-2758534c2371")
 		(property "Reference" "A1"
-			(at 353.9333 101.6 0)
+			(at 353.9333 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17930,7 +19600,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico_W"
-			(at 353.9333 104.14 0)
+			(at 353.9333 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17939,7 +19609,7 @@
 			)
 		)
 		(property "Footprint" "Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles"
-			(at 351.79 114.3 0)
+			(at 351.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17948,7 +19618,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
-			(at 351.79 116.84 0)
+			(at 351.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17957,7 +19627,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
-			(at 351.79 119.38 0)
+			(at 351.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18086,7 +19756,7 @@
 			(uuid "6920227e-705d-4ebe-947f-d49aed44e73e")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "A1")
 					(unit 1)
@@ -18152,7 +19822,7 @@
 			(uuid "110fa4ef-4a60-4b0e-a83c-1ae149e3eb1b")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR029")
 					(unit 1)
@@ -18178,7 +19848,7 @@
 				)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "10k"
 			(at 67.31 133.35 90)
 			(effects
 				(font
@@ -18186,7 +19856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 67.31 138.938 90)
 			(effects
 				(font
@@ -18230,7 +19900,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 356.87 237.49 0)
+		(at 356.87 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18239,7 +19909,7 @@
 		(fields_autoplaced yes)
 		(uuid "f71ef8c9-b0ff-4057-82f7-90335042185e")
 		(property "Reference" "#PWR013"
-			(at 356.87 243.84 0)
+			(at 356.87 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18248,7 +19918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 356.87 242.57 0)
+			(at 356.87 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18256,7 +19926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 237.49 0)
+			(at 356.87 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18265,7 +19935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 237.49 0)
+			(at 356.87 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18274,7 +19944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 356.87 237.49 0)
+			(at 356.87 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18286,7 +19956,7 @@
 			(uuid "9f7475bc-0193-48c6-adf7-ce82d651e089")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR013")
 					(unit 1)
@@ -18354,7 +20024,7 @@
 			(uuid "61fe9835-4cd5-4336-bc19-69fb73f15785")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "D3")
 					(unit 1)
@@ -18476,7 +20146,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 341.63 25.4 90)
+		(at 341.63 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18485,7 +20155,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcc14da6-26bb-48ae-8278-d01afc3585f0")
 		(property "Reference" "#PWR051"
-			(at 345.44 25.4 0)
+			(at 345.44 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18494,7 +20164,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 337.82 25.3999 90)
+			(at 337.82 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18503,7 +20173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 25.4 0)
+			(at 341.63 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18512,7 +20182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 25.4 0)
+			(at 341.63 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18521,7 +20191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 341.63 25.4 0)
+			(at 341.63 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18533,9 +20203,77 @@
 			(uuid "aa14e569-2a64-4554-8275-358739ba4d53")
 		)
 		(instances
-			(project ""
+			(project "Nixie-Tube-Clock-PCB"
 				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff4a9e87-5090-4ec2-a6ca-c439f47d595d")
+		(property "Reference" "R13"
+			(at 115.57 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 115.57 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e754c70-87ff-4031-a2a9-7f5792d66479")
+		)
+		(pin "2"
+			(uuid "7bf2075e-47c1-447a-9cf1-70a9b1c13672")
+		)
+		(instances
+			(project "Nixie-Tube-Clock-PCB"
+				(path "/782adeb2-210b-4f1a-a5d8-637404bd292b"
+					(reference "R13")
 					(unit 1)
 				)
 			)

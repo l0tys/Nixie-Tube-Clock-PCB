@@ -4,4 +4,5 @@
   (lib (name "lt8331")(type "KiCad")(uri "${KIPRJMOD}/lt8331.pretty")(options "")(descr ""))
   (lib (name "SOP50P490X110-17N")(type "KiCad")(uri "${KIPRJMOD}/SOP50P490X110-17N.pretty")(options "")(descr ""))
   (lib (name "SMLJ13A-R")(type "KiCad")(uri "${KIPRJMOD}/SMLJ13A-R.pretty")(options "")(descr ""))
+  (lib (name "LMR33630BDDAR")(type "KiCad")(uri "${KIPRJMOD}/LMR33630BDDAR.pretty")(options "")(descr ""))
 )
